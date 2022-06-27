@@ -6,7 +6,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
@@ -27,7 +26,6 @@ const routes: Routes = [{ component: PortfolioComponent, path: '' }];
     FormsModule,
     ReactiveFormsModule,
     MatSortModule,
-    FlexLayoutModule,
     MatSelectModule,
     MatDialogModule,
   ],

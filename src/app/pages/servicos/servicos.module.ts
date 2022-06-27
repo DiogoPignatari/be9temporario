@@ -10,7 +10,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { FlexLayoutModule } from '@angular/flex-layout';
 
 const routes: Routes = [{ component: ServicosComponent, path: '' }];
 
@@ -28,8 +27,7 @@ const routes: Routes = [{ component: ServicosComponent, path: '' }];
     ReactiveFormsModule,
     MatButtonModule,
     MatCardModule,
-    MatToolbarModule,
-    FlexLayoutModule,
+    MatToolbarModule
   ]
 })
 export class ServicosModule { }

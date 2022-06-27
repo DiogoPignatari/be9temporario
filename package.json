@@ -37,7 +37,6 @@
     "file-saver": "^2.0.5",
     "ng2-pdf-viewer": "^9.0.0",
     "ngx-filesaver": "^12.0.0",
-    "ngx-vertical-timeline": "0.0.1",
     "rxjs": "^6.6.3",
     "tslib": "^2.0.1",
     "uuid": "^8.3.2",

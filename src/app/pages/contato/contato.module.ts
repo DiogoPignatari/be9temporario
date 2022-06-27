@@ -9,7 +9,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSortModule } from '@angular/material/sort';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatSelectModule } from '@angular/material/select';
 import { MatDialogModule } from '@angular/material/dialog';
 import { PlatformModule } from '@angular/cdk/platform';
@@ -29,7 +28,6 @@ const routes: Routes = [{ component: ContatoComponent, path: '' }];
     MatDialogModule,
     ReactiveFormsModule,
     MatSortModule,
-    FlexLayoutModule,
     MatSelectModule,
   ],
   declarations: [ContatoComponent],
